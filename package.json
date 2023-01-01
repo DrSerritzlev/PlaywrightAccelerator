@@ -1,0 +1,15 @@
+{
+  "name": "playwrigth_accelerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.29.1",
+    "prettier": "^2.8.1"
+  }
+}
